@@ -1,0 +1,57 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+media/
+
+# Environments
+.env
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using frontend tools)
+node_modules/
+
+# Static files
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+*.pytest_cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Other
+*.bak
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
